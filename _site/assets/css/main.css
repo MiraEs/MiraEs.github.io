@@ -1,3 +1,46 @@
+
 h1 {
-	color: red;
+	color: yellow;
 }
+
+body {
+	padding-top: 50px;
+	color: #fff; 
+	background-color: grey; 
+	/*background-image: linear-gradient(120deg, #14141f, #14141f); */
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+.navbar {
+   background: black;
+   margin-bottom: 0px;
+}
+
+.navbar ul li a {
+	color: white;
+}
+
+.jumbotron {
+	background-color: grey;
+}
+
+.jumbotron h1 {
+	position:center;
+}
+
+.fullHeight {
+	position: relative;
+  	/*background: url('../img/pexels-photo.jpeg') no-repeat center center;*/
+  	/*background-size: cover;*/
+  	min-height:100vh;
+}
+
+#intro {
+	background-color: black;
+}
+
+
