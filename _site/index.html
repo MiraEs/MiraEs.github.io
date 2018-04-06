@@ -32,21 +32,21 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">MIRA ESTIL</a>
+        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">MIRA ESTIL</a> -->
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="cv.pdf">CV</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projcts</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="cv.pdf">CV</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -59,7 +59,7 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile2.png" alt="">
         <h1 class="text-uppercase mb-0">Mira Estil</h1>
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">iOS Mobile Developer | Pet Lover | Foodie</h2>
@@ -72,7 +72,7 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Projects</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -82,7 +82,7 @@
               <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -290,15 +290,30 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">PROJECT - MIYU</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Netflix Original's Black Mirror inspired social media application. Upload glimpses of your life, rate others, see where you stand in the world of social media!</p>
+            </div>
+              <div class="col-lg-6 ml-auto p1-main">
+              <img class="img-fluid mb-5 p1-img1" src="img/miyu3.png" alt="">
+            </div>
+            <div class="col-lg-6 mr-auto" style="text-align: left;">
+              <p class="mb-5">Netflix Original's Black Mirror inspired social media application.
+                Upload glimpses of your life, rate others, see where you stand in the world of social media!</p>
+              <p style="font-weight: bold;">ROLE</p>
+              <p>Side project - working progress.</p>
+              <p style="font-weight: bold;">TECHNOLOGIES</p>
+              <ul>
+                <li>Swift</li>
+                <li>MVVM</li>
+                <li>Firebase</li>
+                <li>Realm</li>
+                <li>Cocoapods: Cosmos</li>
+              </ul>
+              </div>
+            </div>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
-            </div>
           </div>
         </div>
-      </div>
     </div>
 
     <!-- Portfolio Modal 2 -->
@@ -328,7 +343,6 @@
                     <li>Google Maps</li>
                     <li>Cocoapods: Swift SDK Social library, SnapKit</li>
                   </ul>
-
               </div>
             </div>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
